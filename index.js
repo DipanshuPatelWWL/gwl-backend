@@ -27,7 +27,8 @@ app.use(cookieParser())
 
 // cors
 app.use(cors({
-	origin:"http://localhost:3000",
+	origin:"http://localhost:3000" || "https://6852bca233ae8b0144577c59--rad-travesseiro-d5b35b.netlify.app/",
+	
 	methods:["GET","POST","PUT","DELETE","PATCH"],
 	allowedHeaders:["Content-Type","Authorization"],
 	credentials:true,
